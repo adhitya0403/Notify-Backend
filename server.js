@@ -32,7 +32,7 @@ app.use(cors({
 app.use(passport.initialize());
 
 
-app.use(rateLimiter); 
+// app.use(rateLimiter); 
 
 
 // Routes
